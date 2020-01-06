@@ -65,6 +65,24 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+
+.content {
+   box-sizing: border-box;
+   width: 1200px;
+   height: 1600px;
+   
+   border: 4px dotted;
+
+
+    
+}
+
+header {
+    width: 100%;
+    
+}
+
 .nav-item {
     padding: 5px 50px;
     margin: 10px 15px 15px 0px;
@@ -78,8 +96,62 @@ h1, h2, h3, h4, h5 {
     padding: 5px 50px;
 }
 
+section {
+    border: none solid;
+    display:inline-block;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    vertical-align: top;
+    
+    
+     
+}
+
 p.section-item  {
+    text-align: center;
     text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: fantasy;
+    
+    
+    
+    
+}
+
+button.section-item {
+    background-color: white;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    font-size: 15px;
+    
+    
+
+}
+
+img.section-item {
+    
+    float: right;
+    border: none dotted;
+    margin-left: 100px;
+        
+    
+}
+
+div.section-item {
+    float: left;
+    border: none dotted;
+    margin-top: 15%;
+    margin-right: 
     
 }
 
@@ -87,4 +159,5 @@ a {
     
     text-decoration: none;
     color: gray;
+    
 }
