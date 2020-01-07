@@ -65,14 +65,19 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
+* {
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
 
 .content {
-   box-sizing: border-box;
-   width: 1200px;
-   height: 1600px;
-   
+   margin: auto;
+    display: block;
+    box-sizing: border-box;
+max-width:1024px;
+   height: 1536px;
    border: 4px dotted;
+    
 
 
     
@@ -80,11 +85,18 @@ h1, h2, h3, h4, h5 {
 
 header {
     width: 100%;
+    height: 40%;
+    background: antiquewhite;
+    vertical-align: top;
+    
+}
+
+nav {
     
 }
 
 .nav-item {
-    padding: 5px 50px;
+    padding: 10px 30px;
     margin: 10px 15px 15px 0px;
     display: inline-block;
     
@@ -93,28 +105,28 @@ header {
 .logo {
     
     position:absolute;
-    padding: 5px 50px;
+    padding: 5px 0px 0px 5px;
 }
 
 section {
+    width: 80%;
+    height: 80%;
     border: none solid;
     display:inline-block;
-    padding: 20px;
-    margin-left: 250px;
-    margin-right: 250px;
+    
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: top;
     
     
      
 }
 
-p.section-item  {
+h1.section-item  {
     text-align: center;
-    text-transform: uppercase;
-    font-style: oblique;
-    font-weight: bolder;
-    font-size: 60px;
-    font-family: fantasy;
+    
+    font-size: 70px;
+    
     
     
     
@@ -142,7 +154,7 @@ img.section-item {
     
     float: right;
     border: none dotted;
-    margin-left: 100px;
+    
         
     
 }
@@ -155,9 +167,46 @@ div.section-item {
     
 }
 
-a {
+main {
+   width: 100%;
+   height: 40%;
+   border-top: 3px solid;
+    border-bottom: 3px solid;
+    background: lightgrey;
+    
+    
+    
+    
+}
+
+div.main-item {
+    
+}
+
+top {
+   width: 100%;
+    
+    
+    display:inline-block;
+    
+    
+    vertical-align: top; 
+    
+}
+
+.two {
+float: left;
+   
+}
+
+.one {
+    float: right;
+    
+}
+a.nav-item {
     
     text-decoration: none;
     color: gray;
+    font-size: 16px
     
 }
