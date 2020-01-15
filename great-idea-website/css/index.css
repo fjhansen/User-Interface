@@ -48,8 +48,11 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+*{ /* From Brit */
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 
 html, body {
@@ -62,5 +65,11 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+
 /* Starting Over! */
 /* Your code starts here! */
+
+/*Header Styles*/
+
+/*Main Section Styles */
