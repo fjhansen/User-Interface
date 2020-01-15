@@ -73,7 +73,8 @@ h1, h2, h3, h4, h5 {
 body {
 		width: 1024px;
 		margin: 0 auto;
-		font-size: 90%
+		font-size: 90%;
+		background-color: palevioletred
 }
 /*Header Styles*/
 
@@ -109,33 +110,38 @@ margin-left: 7%
 
 display: inline-block;
 width: 1024px;
+		background-color: aliceblue
 
 }
 
 /* One */
 .one {
-border: red dotted 1px;
+
 	display: inline-block;
 		width: 100%;
-		padding-top: 5%
+		padding-top: 5%;
+		padding-bottom: 5%
 		
 
 }
 
 .one button {
 position: absolute;
-		top: 35%;
-		left: 35%;
+
+		top: 40%;
+		left: 30.5%;
+		text-align: center;
+		padding: .5% 2%;
+		border: 1px solid black;
 		
 		
 }
 
 .one h1 {
 		position: absolute;
-		font-size: 250%;
-		top: 10%;
-		left: 30%;
-		padding-top: 5%;
+		font-size: 410%;
+		top: 15%;
+		left: 25%;
 		text-align: center;
 		
 
@@ -148,16 +154,62 @@ position: absolute;
 
 .one img {
 position: relative;
-		left: 50%;
+		left: 60%;
 		
 		
 		
 }
 
 .two {
+width: 100%;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
 		
+display: inline-block;
+
 }
 
+.top {
+		display: inline-block;
+		width: 100%
+}
+
+#Features {
+		display: inline-block;
+		margin: 1 3%;
+		width: 40%;
+}
+
+#About {
+		display: inline-block;
+		margin: 3% 3%;
+		width: 40%;
+}
+
+
+.bottom {
+		display: inline-block;
+		width: 100%
+}
+
+#Services {
+		display: inline-block;
+		margin: 1 3%;
+		width: 20%;
+}
+
+#Product {
+		display: inline-block;
+		margin: 3% 3%;
+		width: 20%;
+		color: red;
+}
+
+#Vision {
+		display: inline-block;
+		margin: 3% 3%;
+		width: 20%;
+}
 .three {
-		
+	
 }
