@@ -69,15 +69,31 @@ h1, h2, h3, h4, h5 {
 
 /* Starting Over! */
 /* Your code starts here! */
-
+body {
+		width: 1024px;
+		margin: auto;
+}
 /*Header Styles*/
 
 /* Navigation styling */
 .nav {
-    
+  
 }
 /*Main Section Styles */
 
 .page {
     
+		
+}
+
+.one {
+		
+}
+
+.two {
+		
+}
+
+.three {
+		
 }
