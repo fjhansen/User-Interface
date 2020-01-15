@@ -74,7 +74,7 @@ body {
 		width: 1024px;
 		margin: 0 auto;
 		font-size: 90%;
-		background-color: palevioletred
+		background-color: 
 }
 /*Header Styles*/
 
@@ -83,7 +83,7 @@ body {
 
 .nav {
 		display: inline-block;
-		width: 1024px;
+		width: 100%;
 		padding-top: 1%;
 
 		
@@ -109,8 +109,8 @@ margin-left: 7%
 .page {
 
 display: inline-block;
-width: 1024px;
-		background-color: aliceblue
+width: 100%;
+		background-color: 
 
 }
 
@@ -128,8 +128,8 @@ width: 1024px;
 .one button {
 position: absolute;
 
-		top: 40%;
-		left: 30.5%;
+		top: 45%;
+		left: 32%;
 		text-align: center;
 		padding: .5% 2%;
 		border: 1px solid black;
@@ -143,13 +143,7 @@ position: absolute;
 		top: 15%;
 		left: 25%;
 		text-align: center;
-		
 
-				
-	
-		
-
-		 
 }
 
 .one img {
@@ -166,12 +160,14 @@ border-top: 1px solid black;
 border-bottom: 1px solid black;
 		
 display: inline-block;
+padding-left: 5%
 
 }
 
 .top {
 		display: inline-block;
-		width: 100%
+		width: 100%;
+		margin: 2%;
 }
 
 #Features {
@@ -189,27 +185,46 @@ display: inline-block;
 
 .bottom {
 		display: inline-block;
-		width: 100%
+		width: 100%;
+		margin: 2%;
+		
 }
 
 #Services {
 		display: inline-block;
 		margin: 1 3%;
-		width: 20%;
+		width: 25%;
 }
 
 #Product {
 		display: inline-block;
 		margin: 3% 3%;
-		width: 20%;
-		color: red;
+		width: 25%;
+
 }
 
 #Vision {
 		display: inline-block;
 		margin: 3% 3%;
-		width: 20%;
+		width: 25%;
 }
+.middle img {
+		margin-left: 1.5%;
+}
+
 .three {
-	
+		padding-left: 5%;
+}
+
+.three p {
+	line-height: 2;
+}
+
+.three h3 {
+		padding-top: 3%;
+		
+}
+
+.copy {
+		text-align: center;
 }
